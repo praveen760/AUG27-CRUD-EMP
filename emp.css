@@ -1,0 +1,58 @@
+
+.demo{
+    border:2px black solid;
+    margin-left: 200px;
+    margin-top: 50px;
+    width:73%;
+    padding: 60px;
+}
+.list{
+    margin-left: 200px;
+    width:73%;
+    margin-top:50px;
+}
+
+th {
+    border: 1px solid  #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color:white;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+    color:red;
+}
+label{
+    width: 21%;
+   font-size: large;
+   font-weight: bold;
+    margin: 8px 0;
+    display: inline-block;
+}
+input {
+        width: 16%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+}
+button{
+    font-size:20px;
+    font-weight: 1000;
+    color:rgb(143, 134, 134);
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 9px;
+    padding-bottom:11px;
+}
+.c1{
+    color:green;
+}
+.c2{
+    color:red;
+}
+.hide{
+    display:none;
+}
+

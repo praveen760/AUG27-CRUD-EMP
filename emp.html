@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>project</title>
+    <link rel="stylesheet" href="emp.css">
+</head>
+<body>
+    <table class="demo">
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+
+                    <div style="font-size:35px;" >
+                       <strong>ADD Employee details</strong> 
+                    </div>
+
+                    <div>
+                        <label>Employee Id<sup class="hide" id="EmployeeidValidationError">*required</sup></label>
+                        <label>Employee Name</label>
+                        <label>Age</label>
+                       <label>Designation</label>
+                    </div>
+
+                    <div>
+                        <input type="text" name="Employeeid" id="Employeeid">
+                        <input type="text" name="EmployeeName" id="EmployeeName">
+                        <input type="text" name="Age" id="Age">
+                        <input type="text" name="Designation" id="Designation">
+                       <button>ADD</button>
+                    </div>
+                </form>
+            </td>
+        </tr>
+       </table>
+       
+                <table class="list" id="employeeList">
+                    <thead>
+
+                        <tr>
+                            <th>Employee Id</th>
+                            <th>Employee Name</th>
+                            <th>Age</th>
+                            <th>Designation</th>
+                            <th ><strong>Edit</strong></th>
+                           <th><strong>Delete</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+    <script src="emp.js"></script>
+</body>
+</html>
+
